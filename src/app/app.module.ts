@@ -10,6 +10,7 @@ import { ProjectsService } from './projects/projects.service';
 import { NewProjectComponent } from './new-project/new-project.component';
 import { UsersComponent } from './users/users.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     AppRoutingModule
