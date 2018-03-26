@@ -1,5 +1,5 @@
 
-<form (ngSubmit)="onCreateProject()" #f="ngForm">
+<form (ngSubmit)="onCreateProject()" #f="ngForm" [@formState]="f.value">
   <div class="form-group">
     <label for="name" class="control-label">Name</label>
     <input
@@ -36,6 +36,7 @@
   <button
     type="submit"
     [disabled]="!f.valid"
+    [@buttonState]="f.valid ? 'valid' : 'invalid'"
     class="btn btn-success">Create Project</button>
   <button
     type="button"
