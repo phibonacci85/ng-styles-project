@@ -12,7 +12,7 @@ import { routeFadeStateTrigger, routeSlideStateTrigger } from '../shared/route-a
 })
 export class UsersComponent implements OnInit {
   // @HostBinding('@routeFadeState') routeAnimation = true;
-  @HostBinding('@routeFadeState') routeAnimation = true;
+  // @HostBinding('@routeFadeState') routeAnimation = true;
 
   constructor() { }
 

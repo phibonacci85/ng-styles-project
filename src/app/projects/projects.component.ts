@@ -21,7 +21,7 @@ import { routeFadeStateTrigger, routeSlideStateTrigger } from '../shared/route-a
 })
 export class ProjectsComponent implements OnInit {
   // @HostBinding('@routeFadeState') routeAnimation = true;
-  @HostBinding('@routeSlideState') routeAnimation = true;
+  // @HostBinding('@routeSlideState') routeAnimation = true;
 
   projects: Project[];
   markedPrjIndex = 0;
